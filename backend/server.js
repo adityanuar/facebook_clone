@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const { readdirSync } = require("fs");
-const dotenv = require("dotenv");
+const dotenv = require("dotenv-flow");
 dotenv.config();
 
 const app = express();
